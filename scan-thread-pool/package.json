@@ -17,6 +17,7 @@
     "typescript": "^5.8.3"
   },
   "dependencies": {
+    "get-folder-size": "^5.0.0",
     "rxjs": "^7.8.2"
   }
 }
