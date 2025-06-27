@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    const buffer = new ArrayBuffer(2);
+    const arr1 = new Uint16Array(buffer);
+    arr1[0] = 256;
+    console.log(arr1)
+    const arr2 = new Uint8Array(buffer);
+    console.log(arr2)
+  </script>
+</body>
+
+</html>
